@@ -6,3 +6,4 @@ theme: minima
 collections:
   articles:
     output: true
+    permalink: /article/:name/
