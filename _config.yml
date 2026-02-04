@@ -1,10 +1,8 @@
 title: Journal of Microbial Analytics
-description: A peer-reviewed open-access scientific journal specializing in the ecology, pathology, and mechanisms of microbes.
+description: A peer-reviewed open-access scientific journal
 markdown: kramdown
-theme: null
+theme: minima
 
 collections:
   articles:
     output: true
-    permalink: /articles/:name/
-
