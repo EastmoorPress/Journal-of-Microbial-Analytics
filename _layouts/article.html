@@ -1,11 +1,19 @@
----
-layout: default
----
-
 <article>
   <h2>{{ page.title }}</h2>
 
-  <p><strong>Published:</strong> {{ page.published }}</p>
+  <p class="meta">
+    {% for author in page.authors %}
+      {{ author.name }} ({{ author.affiliation }}){% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+
+  <p class="meta">
+    Received {{ page.received }} · Accepted {{ page.accepted }} · Published {{ page.published }}
+  </p>
+
+  <p class="meta">
+    DOI: {{ page.doi }} · License: {{ page.license }}
+  </p>
 
   <h3>Abstract</h3>
   <p>{{ page.abstract }}</p>
