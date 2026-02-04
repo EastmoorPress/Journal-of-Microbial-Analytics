@@ -6,4 +6,5 @@ theme: null
 collections:
   articles:
     output: true
-    permalink: /articles/:title/
+    permalink: /articles/:name/
+
