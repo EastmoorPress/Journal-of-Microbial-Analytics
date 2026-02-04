@@ -1,9 +1,11 @@
 title: Journal of Microbial Analytics
-description: A peer-reviewed open-access scientific journal
 markdown: kramdown
 theme: minima
+
+# Project site settings
+baseurl: "/Journal-of-Microbial-Analytics"    # <-- your repo name
+url: "https://EastmoorPress.github.io"       # <-- your GitHub username
 
 collections:
   articles:
     output: true
-    permalink: /article/:name/
